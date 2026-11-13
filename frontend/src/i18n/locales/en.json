@@ -1,0 +1,391 @@
+{
+  "common": {
+    "appName": "ClarityCare",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "search": "Search",
+    "view": "View",
+    "delete": "Delete",
+    "edit": "Edit",
+    "clearFilters": "Clear Filters",
+    "all": "All",
+    "download": "Download",
+    "share": "Share",
+    "copy": "Copy",
+    "copied": "Copied",
+    "notSpecified": "Not specified",
+    "processed": "Processed",
+    "somethingWentWrong": "Something went wrong.",
+    "languages": {
+      "en": "English",
+      "hi": "Hindi",
+      "ta": "Tamil",
+      "te": "Telugu",
+      "kn": "Kannada"
+    }
+  },
+  "bottomNav": {
+    "home": "Home",
+    "upload": "Upload",
+    "chat": "Chat",
+    "history": "History",
+    "profile": "Profile"
+  },
+  "navbar": {
+    "title": "ClarityCare",
+    "toggleMenu": "Toggle menu",
+    "selectLanguage": "Select language",
+    "installApp": "Install ClarityCare"
+  },
+  "footer": {
+    "copyright": "© ClarityCare"
+  },
+  "landing": {
+    "hero": {
+      "eyebrow": "Built for rural India",
+      "titleLine1": "Medical advice, explained simply.",
+      "titleLine2": "In the language you speak.",
+      "description": "Prescriptions and diagnoses are written for doctors, not patients. Our assistant turns confusing medical text into plain language, then translates it into your regional language — so every patient understands their own care.",
+      "tryItNow": "Try it now",
+      "seeHowItWorks": "See how it works",
+      "sameMessage": "Same message, {{count}} languages"
+    },
+    "features": {
+      "heading": "What the assistant does",
+      "items": [
+        {
+          "title": "Plain-language simplification",
+          "description": "Complex diagnoses and prescriptions are rewritten in everyday words, with every medical term explained."
+        },
+        {
+          "title": "Regional language translation",
+          "description": "Simplified explanations are translated into Hindi, Marathi, Tamil, Telugu, Kannada, and more."
+        },
+        {
+          "title": "Prescription scanning",
+          "description": "Photograph or upload a prescription and let the assistant read and process it automatically."
+        },
+        {
+          "title": "Personal medical history",
+          "description": "Every simplified, translated record is saved to your profile, so you can revisit past visits anytime."
+        }
+      ]
+    },
+    "howItWorks": {
+      "heading": "How it works",
+      "steps": [
+        {
+          "title": "Upload your prescription",
+          "description": "Take a photo or upload a PDF of your prescription or medical report."
+        },
+        {
+          "title": "We simplify the medical text",
+          "description": "Our model rewrites the jargon into clear, everyday language."
+        },
+        {
+          "title": "Choose your language",
+          "description": "Select your regional language for the translated explanation."
+        },
+        {
+          "title": "Read and understand",
+          "description": "View your simplified, translated report — and keep it saved for later."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is my medical information kept private?",
+          "a": "Yes. Your prescriptions and reports are only used to generate your simplified, translated summary and are not shared with anyone else."
+        },
+        {
+          "q": "Which languages are supported?",
+          "a": "Hindi, Marathi, Tamil, Telugu, and Kannada are supported at launch, with more regional languages planned."
+        },
+        {
+          "q": "Do I need internet access to use this?",
+          "a": "Yes, an internet connection is currently required to process and translate your documents."
+        },
+        {
+          "q": "Can a health worker use this on behalf of a patient?",
+          "a": "Yes. ASHA workers and clinic staff can upload documents and share the simplified explanation with patients directly."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Get in touch",
+      "description": "Questions about the assistant, partnerships with rural clinics, or feedback on the prototype — we'd like to hear from you.",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Your message",
+      "send": "Send message",
+      "thanks": "Thanks for reaching out — we'll get back to you soon.",
+      "address": "Pune, Maharashtra, India"
+    },
+    "footer": {
+      "tagline": "An AI healthcare assistant for rural communities.",
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy"
+    }
+  },
+  "auth": {
+    "layout": {
+      "brand": "AI Healthcare",
+      "tagline": "AI Powered Healthcare Communication Assistant for Rural Communities",
+      "secureTitle": "Secure Authentication",
+      "secureDescription": "Protected access for patients and healthcare workers.",
+      "languageTitle": "Regional Language Support",
+      "languageDescription": "Understand healthcare information in your preferred language.",
+      "aiTitle": "AI Assisted Communication",
+      "aiDescription": "Simplifying medical information with intelligent assistance.",
+      "privacyPolicy": "Privacy Policy",
+      "terms": "Terms",
+      "support": "Support"
+    },
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to continue to the AI Healthcare Communication Assistant",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter your email",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember Me",
+      "forgotPassword": "Forgot Password?",
+      "orContinueWithEmail": "Or continue with email",
+      "signIn": "Sign In",
+      "signingIn": "Signing In...",
+      "noAccount": "Don't have an account?",
+      "register": "Register",
+      "successToast": "Login Successful",
+      "invalidCredentials": "Invalid email or password."
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Register to access the AI Healthcare Communication Assistant",
+      "orContinueWithEmail": "Or continue with email",
+      "fullNamePlaceholder": "Full Name",
+      "emailPlaceholder": "Email Address",
+      "phonePlaceholder": "Phone Number (e.g. +919876543210)",
+      "passwordPlaceholder": "Password",
+      "passwordHint": "At least 8 characters, one uppercase letter, one digit, and one special character.",
+      "strengthLabel": "Strength: {{strength}}",
+      "strengthWeak": "Weak",
+      "strengthMedium": "Medium",
+      "strengthStrong": "Strong",
+      "rolePatient": "Patient",
+      "roleHealthcareWorker": "Healthcare Worker",
+      "createAccount": "Create Account",
+      "creatingAccount": "Creating Account...",
+      "haveAccount": "Already have an account?",
+      "login": "Login",
+      "successToast": "Registration Successful! Please sign in.",
+      "errorToast": "Registration failed. Please check your details and try again."
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email to receive a password reset link",
+      "emailPlaceholder": "Enter your email",
+      "send": "Send Reset Link",
+      "sending": "Sending...",
+      "backToLogin": "Back to Login",
+      "successToast": "Password reset link sent."
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "subtitle": "Create a new password for your account",
+      "newPasswordPlaceholder": "New Password",
+      "confirmPasswordPlaceholder": "Confirm Password",
+      "submit": "Reset Password",
+      "backToLogin": "Back to Login",
+      "mismatchError": "Passwords do not match",
+      "successToast": "Password Reset Successfully"
+    },
+    "google": {
+      "signedIn": "Signed in with Google",
+      "failed": "Google sign-in failed. Please try again.",
+      "unavailable": "Google sign-in unavailable",
+      "unavailableTitle": "Google sign-in isn't configured yet (missing VITE_GOOGLE_CLIENT_ID)",
+      "loading": "Loading Google sign-in…"
+    }
+  },
+  "home": {
+    "welcomeDefault": "Welcome Back 👋",
+    "subtitleDefault": "Healthcare made simpler.",
+    "notifications": "Notifications",
+    "statsReports": "Reports",
+    "statsVerified": "Verified",
+    "statsMedicines": "Medicines",
+    "recentPrescriptions": "Recent Prescriptions",
+    "viewAll": "View All",
+    "noReports": "No reports yet. Upload your first prescription to get started.",
+    "loadErrorToast": "Couldn't load your dashboard.",
+    "quickUpload": {
+      "title": "Upload Prescription",
+      "description": "Scan using your camera or upload an image/PDF.",
+      "camera": "Camera",
+      "uploadPdf": "Upload PDF"
+    },
+    "healthTip": {
+      "title": "Daily Health Tip",
+      "fallbackTips": [
+        "💧 Drink at least 2 litres of water today.",
+        "🚶 Walk for 30 minutes every day.",
+        "🥗 Eat fresh fruits and vegetables.",
+        "💊 Complete your prescribed medicines."
+      ]
+    }
+  },
+  "profile": {
+    "welcome": "Welcome 👋",
+    "title": "Profile",
+    "subtitle": "Manage your healthcare account",
+    "defaultName": "Your Name",
+    "preferencesHeading": "Preferences",
+    "preferredLanguage": "Preferred Language",
+    "preferredLanguageDescription": "Used across reports, chatbot, voice, and this app's interface",
+    "notifications": "Notifications",
+    "notificationsDescription": "Receive important updates",
+    "settingsHeading": "Settings",
+    "privacySecurity": "Privacy & Security",
+    "privacySecuritySubtitle": "Manage your account",
+    "helpSupport": "Help & Support",
+    "helpSupportSubtitle": "FAQs & Contact",
+    "logout": "Logout",
+    "footerLine1": "AI Healthcare Communication Assistant",
+    "footerLine2": "Version 1.0.0",
+    "languageUpdatedToast": "Preferred language updated.",
+    "languageUpdateErrorToast": "Couldn't update your language preference."
+  },
+  "history": {
+    "title": "My Prescription History",
+    "description": "View your previously uploaded prescriptions",
+    "searchPlaceholder": "Search prescription, medicine, or doctor",
+    "statusAll": "All Status",
+    "statusSimplified": "Simplified",
+    "statusTranslated": "Translated",
+    "statusExtracted": "Extracted",
+    "sortRecent": "Recent",
+    "sortOldest": "Oldest",
+    "clearFilters": "Clear Filters",
+    "emptyTitle": "No prescriptions to display",
+    "emptyDescription": "Upload your first prescription",
+    "upload": "Upload",
+    "needsReview": "Needs review",
+    "verified": "Verified",
+    "medicalReportFallback": "Medical Report",
+    "deleteConfirm": "Are you sure you want to delete this prescription?",
+    "deleteSuccessToast": "Prescription deleted.",
+    "deleteErrorToast": "Couldn't delete this prescription.",
+    "loadErrorToast": "Couldn't load your prescription history.",
+    "card": {
+      "doctorLabel": "Doctor",
+      "view": "View",
+      "delete": "Delete"
+    }
+  },
+  "prescriptionDetails": {
+    "notFound": "This prescription could not be found.",
+    "backToHistory": "Back to History",
+    "back": "Back",
+    "title": "Prescription Details",
+    "subtitle": "View your prescription information",
+    "dateLabel": "Date",
+    "doctorLabel": "Doctor",
+    "languageLabel": "Language",
+    "originalHeading": "Original Prescription",
+    "originalEmpty": "No text was extracted from this document.",
+    "simplifiedHeading": "Simplified Version",
+    "simplifiedEmpty": "Simplified explanation not available yet.",
+    "medicinesHeading": "Medicines",
+    "downloadButton": "Download Prescription",
+    "loadErrorToast": "Couldn't load this prescription."
+  },
+  "chatbot": {
+    "headerTitle": "Health Assistant",
+    "headerSubtitle": "Ask questions about your reports or general health",
+    "emptyStatePrompt": "Ask me anything about your medical reports, medicines, or general health — by text or voice, in your language.",
+    "suggestedPrompts": [
+      "What does high blood pressure mean?",
+      "How should I take antibiotics safely?",
+      "What is antenatal care?",
+      "Explain my prescription in simple words."
+    ],
+    "conversations": "Conversations",
+    "newConversation": "New conversation",
+    "noConversations": "No conversations yet.",
+    "inputPlaceholder": "Type your health question...",
+    "demoMode": "Demo mode — no LLM key configured",
+    "via": "via {{provider}}",
+    "loadSessionsError": "Couldn't load your conversations.",
+    "loadMessagesError": "Couldn't load this conversation.",
+    "deleteSessionError": "Couldn't delete this conversation.",
+    "askError": "The assistant couldn't respond. Please try again.",
+    "voiceError": "Couldn't process the recording. Please try again or type instead.",
+    "voiceUnsupported": "Voice recording isn't supported in this browser.",
+    "micDenied": "Microphone access was denied or is unavailable.",
+    "stopRecording": "Stop recording",
+    "askByVoice": "Ask by voice",
+    "voiceNotSupportedHere": "Voice recording not supported here"
+  },
+  "upload": {
+    "sectionHeading": "Upload Image or PDF",
+    "dragDrop": "Drag & drop an image or PDF here, or choose an option below",
+    "useCamera": "📷 Use Camera",
+    "capture": "Capture",
+    "cancel": "Cancel",
+    "cameraError": "Could not access camera. Please allow camera permission.",
+    "invalidFileType": "Only JPG, JPEG, PNG, and PDF files are allowed.",
+    "extractText": "Extract Text",
+    "extracting": "Extracting text...",
+    "extractingPercent": "Extracting text... {{progress}}%",
+    "extractSuccessToast": "Text extracted successfully!",
+    "extractErrorToast": "Failed to extract text. Please try a clearer image.",
+    "selectFileFirstToast": "Please select an image or PDF first.",
+    "pdfSelected": "PDF file selected",
+    "ocrResultHeading": "OCR Result",
+    "ocrResultPlaceholder": "Extracted text will appear here...",
+    "viewFullResults": "View Full Results & Simplified Summary",
+    "headerTitle": "OCR Service",
+    "headerSubtitle": "Upload your image and extract text"
+  },
+  "results": {
+    "appHeader": {
+      "title": "ClarityCare",
+      "subtitle": "Turn medical text into words your patients understand",
+      "switchToDark": "Switch to dark mode",
+      "switchToLight": "Switch to light mode"
+    },
+    "toolbar": {
+      "translateTo": "Translate to",
+      "selectLanguage": "Select Language",
+      "simplify": "Simplify",
+      "translate": "Translate"
+    },
+    "loadingReport": "Loading report...",
+    "uploadFirstTranslate": "Upload a report first to translate it.",
+    "uploadFirstSimplify": "Upload a report first to simplify it.",
+    "translateFailed": "Translation failed.",
+    "simplifyFailed": "Simplification failed.",
+    "loadReportFailed": "Couldn't load this report.",
+    "resultCopied": "Result copied. Share anywhere.",
+    "shareTitle": "AI Simplified Result",
+    "header": {
+      "title": "Healthcare Simplified Result",
+      "copyTooltip": "Copy to clipboard",
+      "shareTooltip": "Share result",
+      "downloadTooltip": "Download as text"
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "description": "We couldn't find that page. It may have moved, or the link might be incorrect.",
+    "backToDashboard": "Back to Dashboard"
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "common": {
+    "appName": "क्लैरिटीकेयर",
+    "loading": "लोड हो रहा है...",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "back": "वापस",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "close": "बंद करें",
+    "search": "खोजें",
+    "view": "देखें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "clearFilters": "फ़िल्टर साफ़ करें",
+    "all": "सभी",
+    "download": "डाउनलोड",
+    "share": "साझा करें",
+    "copy": "कॉपी करें",
+    "copied": "कॉपी हो गया",
+    "notSpecified": "निर्दिष्ट नहीं",
+    "processed": "संसाधित",
+    "somethingWentWrong": "कुछ गलत हो गया।",
+    "languages": {
+      "en": "अंग्रेज़ी",
+      "hi": "हिन्दी",
+      "ta": "तमिल",
+      "te": "तेलुगु",
+      "kn": "कन्नड़"
+    },
+    "medicineNames": {
+      "acetaminophen": "एसिटामिनोफेन",
+      "acyclovir": "एसाइक्लोविर",
+      "albendazole": "एल्बेंडाज़ोल",
+      "albuterol": "एल्ब्युटेरॉल",
+      "allopurinol": "एलोप्यूरिनॉल",
+      "alprazolam": "अल्प्राज़ोलम",
+      "amiodarone": "एमियोडैरोन",
+      "amitriptyline": "एमिट्रिप्टिलाइन",
+      "amlodipine": "एम्लोडिपिन",
+      "amoxicillin": "एमोक्सिसिलिन",
+      "ampicillin": "एम्पिसिलिन",
+      "aspirin": "एस्पिरिन",
+      "atenolol": "एटेनोलोल",
+      "atorvastatin": "एटोरवास्टेटिन",
+      "augmentin": "ऑग्मेंटिन",
+      "azithromycin": "एज़िथ्रोमाइसिन",
+      "carbamazepine": "कार्बामाज़ेपिन",
+      "carbimazole": "कार्बिमाज़ोल",
+      "cefixime": "सेफिक्साइम",
+      "ceftriaxone": "सेफ्ट्रिआक्सोन",
+      "cephalexin": "सेफैलेक्सिन",
+      "cetirizine": "सिटिरिज़िन",
+      "chloroquine": "क्लोरोक्विन",
+      "ciprofloxacin": "सिप्रोफ्लॉक्सासिन",
+      "clindamycin": "क्लिंडामाइसिन",
+      "clonazepam": "क्लोनाज़ेपाम",
+      "clopidogrel": "क्लोपिडोग्रेल",
+      "codeine": "कोडीन",
+      "colchicine": "कोल्चिसिन",
+      "cotrimoxazole": "कोट्रिमोक्साज़ोल",
+      "crocin": "क्रोसिन",
+      "dexamethasone": "डेक्सामेथासोन",
+      "diazepam": "डायजेपाम",
+      "diclofenac": "डाइक्लोफेनाक",
+      "digoxin": "डिगॉक्सिन",
+      "dolo": "डोलो",
+      "donepezil": "डोनेपेज़िल",
+      "doxycycline": "डॉक्सीसाइक्लिन",
+      "enalapril": "एनालाप्रिल",
+      "enoxaparin": "एनोक्सापारिन",
+      "erythromycin": "एरिथ्रोमाइसिन",
+      "escitalopram": "एस्सिटालोप्राम",
+      "fluconazole": "फ्लुकोनाज़ोल",
+      "fluoxetine": "फ्लुओक्सेटीन",
+      "furosemide": "फ्यूरोसेमाइड",
+      "gabapentin": "गैबापेंटिन",
+      "gentamicin": "जेंटामाइसिन",
+      "glibenclamide": "ग्लिबेनक्लामाइड",
+      "glipizide": "ग्लिपिज़ाइड",
+      "haloperidol": "हैलोपेरिडोल",
+      "heparin": "हेपारिन",
+      "hydrochlorothiazide": "हाइड्रोक्लोरोथायज़ाइड",
+      "hydrocortisone": "हाइड्रोकोर्टिसोन",
+      "hydroxychloroquine": "हाइड्रोक्सीक्लोरोक्विन",
+      "ibuprofen": "आइबुप्रोफेन",
+      "indomethacin": "इंडोमेथासिन",
+      "insulin": "इंसुलिन",
+      "itraconazole": "इट्राकोनाज़ोल",
+      "ivermectin": "आइवरमेक्टिन",
+      "levetiracetam": "लेवेटिरासेटम",
+      "levothyroxine": "लेवोथायरॉक्सिन",
+      "lisinopril": "लिसिनोप्रिल",
+      "loratadine": "लोरैटाडीन",
+      "lorazepam": "लोराज़ेपाम",
+      "losartan": "लोसार्टन",
+      "mebendazole": "मेबेंडाज़ोल",
+      "memantine": "मेमेंटाइन",
+      "meropenem": "मेरोपेनेम",
+      "metformin": "मेटफॉर्मिन",
+      "methotrexate": "मेथोट्रेक्सेट",
+      "metoprolol": "मेटोप्रोलोल",
+      "montelukast": "मॉन्टेलुकास्ट",
+      "morphine": "मॉर्फिन",
+      "naproxen": "नैप्रोक्सेन",
+      "olanzapine": "ओलानज़ापिन",
+      "omeprazole": "ओमेप्राज़ोल",
+      "oseltamivir": "ओसेल्टामिविर",
+      "pantocid": "पैंटोसिड",
+      "pantoprazole": "पैंटोप्राज़ोल",
+      "paracetamol": "पैरासिटामोल",
+      "phenytoin": "फेनिटॉइन",
+      "prednisolone": "प्रेडनिसोलोन",
+      "pregabalin": "प्रेगाबालिन",
+      "propylthiouracil": "प्रोपाइलथियोयूरैसिल",
+      "quetiapine": "क्वेटायपिन",
+      "ramipril": "रामिप्रिल",
+      "ranitidine": "रैनिटिडीन",
+      "risperidone": "रिस्पेरिडोन",
+      "salbutamol": "सैल्बुटामोल",
+      "sertraline": "सर्ट्रालीन",
+      "simvastatin": "सिमवास्टेटिन",
+      "spironolactone": "स्पिरोनोलैक्टोन",
+      "telmisartan": "टेल्मिसार्टन",
+      "tetracycline": "टेट्रासाइक्लिन",
+      "tramadol": "ट्रामाडोल",
+      "valacyclovir": "वैलेसाइक्लोविर",
+      "valproate": "वैल्प्रोएट",
+      "valsartan": "वालसार्टन",
+      "vancomycin": "वैनकोमाइसिन",
+      "warfarin": "वारफारिन",
+      "zerodol": "ज़ेरोडोल"
+    }
+  },
+  "bottomNav": {
+    "home": "होम",
+    "upload": "अपलोड",
+    "chat": "चैट",
+    "history": "इतिहास",
+    "profile": "प्रोफ़ाइल"
+  },
+  "navbar": {
+    "title": "क्लैरिटीकेयर",
+    "toggleMenu": "मेनू टॉगल करें",
+    "selectLanguage": "भाषा चुनें",
+    "installApp": "क्लैरिटीकेयर इंस्टॉल करें"
+  },
+  "footer": {
+    "copyright": "© क्लैरिटीकेयर"
+  },
+  "landing": {
+    "hero": {
+      "eyebrow": "ग्रामीण भारत के लिए बनाया गया",
+      "titleLine1": "चिकित्सा सलाह, सरल भाषा में।",
+      "titleLine2": "आपकी बोली जाने वाली भाषा में।",
+      "description": "नुस्खे और निदान डॉक्टरों के लिए लिखे जाते हैं, मरीज़ों के लिए नहीं। हमारा सहायक जटिल चिकित्सा पाठ को सरल भाषा में बदलता है, फिर उसे आपकी क्षेत्रीय भाषा में अनुवादित करता है — ताकि हर मरीज़ अपनी देखभाल को समझ सके।",
+      "tryItNow": "अभी आज़माएं",
+      "seeHowItWorks": "यह कैसे काम करता है देखें",
+      "sameMessage": "एक ही संदेश, {{count}} भाषाएं"
+    },
+    "features": {
+      "heading": "सहायक क्या करता है",
+      "items": [
+        {
+          "title": "सरल-भाषा सरलीकरण",
+          "description": "जटिल निदान और नुस्खों को रोज़मर्रा के शब्दों में फिर से लिखा जाता है, हर चिकित्सा शब्द की व्याख्या के साथ।"
+        },
+        {
+          "title": "क्षेत्रीय भाषा अनुवाद",
+          "description": "सरल व्याख्याओं का अनुवाद हिंदी, मराठी, तमिल, तेलुगु, कन्नड़ और अन्य भाषाओं में किया जाता है।"
+        },
+        {
+          "title": "नुस्खा स्कैनिंग",
+          "description": "नुस्खे की फोटो लें या अपलोड करें और सहायक को इसे स्वचालित रूप से पढ़ने और संसाधित करने दें।"
+        },
+        {
+          "title": "व्यक्तिगत चिकित्सा इतिहास",
+          "description": "हर सरल, अनुवादित रिकॉर्ड आपकी प्रोफ़ाइल में सहेजा जाता है, ताकि आप कभी भी पिछली यात्राओं को देख सकें।"
+        }
+      ]
+    },
+    "howItWorks": {
+      "heading": "यह कैसे काम करता है",
+      "steps": [
+        {
+          "title": "अपना नुस्खा अपलोड करें",
+          "description": "अपने नुस्खे या मेडिकल रिपोर्ट की फोटो लें या PDF अपलोड करें।"
+        },
+        {
+          "title": "हम चिकित्सा पाठ को सरल बनाते हैं",
+          "description": "हमारा मॉडल शब्दजाल को स्पष्ट, रोज़मर्रा की भाषा में फिर से लिखता है।"
+        },
+        {
+          "title": "अपनी भाषा चुनें",
+          "description": "अनुवादित व्याख्या के लिए अपनी क्षेत्रीय भाषा चुनें।"
+        },
+        {
+          "title": "पढ़ें और समझें",
+          "description": "अपनी सरल, अनुवादित रिपोर्ट देखें — और इसे बाद के लिए सहेज कर रखें।"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "अक्सर पूछे जाने वाले प्रश्न",
+      "items": [
+        {
+          "q": "क्या मेरी चिकित्सा जानकारी निजी रखी जाती है?",
+          "a": "हाँ। आपके नुस्खे और रिपोर्ट का उपयोग केवल आपका सरल, अनुवादित सारांश बनाने के लिए किया जाता है और किसी और के साथ साझा नहीं किया जाता।"
+        },
+        {
+          "q": "कौन सी भाषाएं समर्थित हैं?",
+          "a": "लॉन्च पर हिंदी, मराठी, तमिल, तेलुगु और कन्नड़ समर्थित हैं, अधिक क्षेत्रीय भाषाओं की योजना है।"
+        },
+        {
+          "q": "क्या इसका उपयोग करने के लिए मुझे इंटरनेट एक्सेस चाहिए?",
+          "a": "हाँ, आपके दस्तावेज़ों को संसाधित और अनुवादित करने के लिए वर्तमान में इंटरनेट कनेक्शन आवश्यक है।"
+        },
+        {
+          "q": "क्या एक स्वास्थ्य कार्यकर्ता मरीज़ की ओर से इसका उपयोग कर सकता है?",
+          "a": "हाँ। आशा कार्यकर्ता और क्लिनिक स्टाफ दस्तावेज़ अपलोड कर सकते हैं और सरल व्याख्या सीधे मरीज़ों के साथ साझा कर सकते हैं।"
+        }
+      ]
+    },
+    "contact": {
+      "heading": "संपर्क करें",
+      "description": "सहायक के बारे में सवाल, ग्रामीण क्लीनिकों के साथ साझेदारी, या प्रोटोटाइप पर प्रतिक्रिया — हम आपसे सुनना चाहेंगे।",
+      "namePlaceholder": "आपका नाम",
+      "emailPlaceholder": "आपका ईमेल",
+      "messagePlaceholder": "आपका संदेश",
+      "send": "संदेश भेजें",
+      "thanks": "संपर्क करने के लिए धन्यवाद — हम जल्द ही आपसे संपर्क करेंगे।",
+      "address": "पुणे, महाराष्ट्र, भारत"
+    },
+    "footer": {
+      "tagline": "ग्रामीण समुदायों के लिए एक AI स्वास्थ्य सहायक।",
+      "about": "हमारे बारे में",
+      "contact": "संपर्क करें",
+      "privacy": "गोपनीयता"
+    }
+  },
+  "auth": {
+    "layout": {
+      "brand": "एआई हेल्थकेयर",
+      "tagline": "ग्रामीण समुदायों के लिए एआई संचालित हेल्थकेयर संचार सहायक",
+      "secureTitle": "सुरक्षित प्रमाणीकरण",
+      "secureDescription": "मरीज़ों और स्वास्थ्य कार्यकर्ताओं के लिए सुरक्षित पहुंच।",
+      "languageTitle": "क्षेत्रीय भाषा समर्थन",
+      "languageDescription": "अपनी पसंदीदा भाषा में स्वास्थ्य जानकारी समझें।",
+      "aiTitle": "एआई सहायता प्राप्त संचार",
+      "aiDescription": "बुद्धिमान सहायता के साथ चिकित्सा जानकारी को सरल बनाना।",
+      "privacyPolicy": "गोपनीयता नीति",
+      "terms": "शर्तें",
+      "support": "सहायता"
+    },
+    "login": {
+      "title": "वापसी पर स्वागत है",
+      "subtitle": "एआई हेल्थकेयर संचार सहायक में जारी रखने के लिए साइन इन करें",
+      "emailLabel": "ईमेल",
+      "emailPlaceholder": "अपना ईमेल दर्ज करें",
+      "passwordLabel": "पासवर्ड",
+      "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+      "rememberMe": "मुझे याद रखें",
+      "forgotPassword": "पासवर्ड भूल गए?",
+      "orContinueWithEmail": "या ईमेल से जारी रखें",
+      "signIn": "साइन इन करें",
+      "signingIn": "साइन इन हो रहा है...",
+      "noAccount": "खाता नहीं है?",
+      "register": "पंजीकरण करें",
+      "successToast": "लॉगिन सफल",
+      "invalidCredentials": "अमान्य ईमेल या पासवर्ड।"
+    },
+    "register": {
+      "title": "खाता बनाएं",
+      "subtitle": "एआई हेल्थकेयर संचार सहायक तक पहुंचने के लिए पंजीकरण करें",
+      "orContinueWithEmail": "या ईमेल से जारी रखें",
+      "fullNamePlaceholder": "पूरा नाम",
+      "emailPlaceholder": "ईमेल पता",
+      "phonePlaceholder": "फ़ोन नंबर (जैसे +919876543210)",
+      "passwordPlaceholder": "पासवर्ड",
+      "passwordHint": "कम से कम 8 अक्षर, एक बड़ा अक्षर, एक अंक, और एक विशेष चिह्न।",
+      "strengthLabel": "मज़बूती: {{strength}}",
+      "strengthWeak": "कमज़ोर",
+      "strengthMedium": "मध्यम",
+      "strengthStrong": "मज़बूत",
+      "rolePatient": "मरीज़",
+      "roleHealthcareWorker": "स्वास्थ्य कार्यकर्ता",
+      "createAccount": "खाता बनाएं",
+      "creatingAccount": "खाता बनाया जा रहा है...",
+      "haveAccount": "पहले से ही खाता है?",
+      "login": "लॉगिन करें",
+      "successToast": "पंजीकरण सफल! कृपया साइन इन करें।",
+      "errorToast": "पंजीकरण विफल रहा। कृपया अपना विवरण जांचें और फिर से प्रयास करें।"
+    },
+    "forgotPassword": {
+      "title": "पासवर्ड भूल गए",
+      "subtitle": "पासवर्ड रीसेट लिंक प्राप्त करने के लिए अपना ईमेल दर्ज करें",
+      "emailPlaceholder": "अपना ईमेल दर्ज करें",
+      "send": "रीसेट लिंक भेजें",
+      "sending": "भेजा जा रहा है...",
+      "backToLogin": "लॉगिन पर वापस जाएं",
+      "successToast": "पासवर्ड रीसेट लिंक भेज दिया गया।"
+    },
+    "resetPassword": {
+      "title": "पासवर्ड रीसेट करें",
+      "subtitle": "अपने खाते के लिए एक नया पासवर्ड बनाएं",
+      "newPasswordPlaceholder": "नया पासवर्ड",
+      "confirmPasswordPlaceholder": "पासवर्ड की पुष्टि करें",
+      "submit": "पासवर्ड रीसेट करें",
+      "backToLogin": "लॉगिन पर वापस जाएं",
+      "mismatchError": "पासवर्ड मेल नहीं खाते",
+      "successToast": "पासवर्ड सफलतापूर्वक रीसेट हो गया"
+    },
+    "google": {
+      "signedIn": "Google से साइन इन किया गया",
+      "failed": "Google साइन-इन विफल रहा। कृपया फिर से प्रयास करें।",
+      "unavailable": "Google साइन-इन उपलब्ध नहीं है",
+      "unavailableTitle": "Google साइन-इन अभी कॉन्फ़िगर नहीं किया गया है (VITE_GOOGLE_CLIENT_ID गुम है)",
+      "loading": "Google साइन-इन लोड हो रहा है…"
+    }
+  },
+  "home": {
+    "welcomeDefault": "वापसी पर स्वागत है 👋",
+    "subtitleDefault": "स्वास्थ्य सेवा और सरल बनाई गई।",
+    "notifications": "सूचनाएं",
+    "statsReports": "रिपोर्ट",
+    "statsVerified": "सत्यापित",
+    "statsMedicines": "दवाइयां",
+    "recentPrescriptions": "हाल के नुस्खे",
+    "viewAll": "सभी देखें",
+    "noReports": "अभी तक कोई रिपोर्ट नहीं है। शुरू करने के लिए अपना पहला नुस्खा अपलोड करें।",
+    "loadErrorToast": "आपका डैशबोर्ड लोड नहीं हो सका।",
+    "quickUpload": {
+      "title": "नुस्खा अपलोड करें",
+      "description": "अपने कैमरे से स्कैन करें या एक छवि/PDF अपलोड करें।",
+      "camera": "कैमरा",
+      "uploadPdf": "PDF अपलोड करें"
+    },
+    "healthTip": {
+      "title": "दैनिक स्वास्थ्य सुझाव",
+      "fallbackTips": [
+        "💧 आज कम से कम 2 लीटर पानी पिएं।",
+        "🚶 हर दिन 30 मिनट टहलें।",
+        "🥗 ताज़े फल और सब्ज़ियां खाएं।",
+        "💊 अपनी निर्धारित दवाइयां पूरी करें।"
+      ]
+    }
+  },
+  "profile": {
+    "welcome": "स्वागत है 👋",
+    "title": "प्रोफ़ाइल",
+    "subtitle": "अपना स्वास्थ्य खाता प्रबंधित करें",
+    "defaultName": "आपका नाम",
+    "preferencesHeading": "प्राथमिकताएं",
+    "preferredLanguage": "पसंदीदा भाषा",
+    "preferredLanguageDescription": "रिपोर्ट, चैटबॉट, आवाज़ और इस ऐप के इंटरफ़ेस में उपयोग की जाती है",
+    "notifications": "सूचनाएं",
+    "notificationsDescription": "महत्वपूर्ण अपडेट प्राप्त करें",
+    "settingsHeading": "सेटिंग्स",
+    "privacySecurity": "गोपनीयता और सुरक्षा",
+    "privacySecuritySubtitle": "अपना खाता प्रबंधित करें",
+    "helpSupport": "सहायता और समर्थन",
+    "helpSupportSubtitle": "सामान्य प्रश्न और संपर्क",
+    "logout": "लॉगआउट",
+    "footerLine1": "एआई हेल्थकेयर संचार सहायक",
+    "footerLine2": "संस्करण 1.0.0",
+    "languageUpdatedToast": "पसंदीदा भाषा अपडेट हो गई।",
+    "languageUpdateErrorToast": "आपकी भाषा प्राथमिकता अपडेट नहीं हो सकी।"
+  },
+  "history": {
+    "title": "मेरा नुस्खा इतिहास",
+    "description": "अपने पहले से अपलोड किए गए नुस्खे देखें",
+    "searchPlaceholder": "नुस्खा, दवा, या डॉक्टर खोजें",
+    "statusAll": "सभी स्थिति",
+    "statusSimplified": "सरलीकृत",
+    "statusTranslated": "अनुवादित",
+    "statusExtracted": "निकाला गया",
+    "sortRecent": "हाल का",
+    "sortOldest": "पुराना",
+    "clearFilters": "फ़िल्टर साफ़ करें",
+    "emptyTitle": "दिखाने के लिए कोई नुस्खे नहीं",
+    "emptyDescription": "अपना पहला नुस्खा अपलोड करें",
+    "upload": "अपलोड करें",
+    "needsReview": "समीक्षा आवश्यक",
+    "verified": "सत्यापित",
+    "medicalReportFallback": "मेडिकल रिपोर्ट",
+    "deleteConfirm": "क्या आप वाकई इस नुस्खे को हटाना चाहते हैं?",
+    "deleteSuccessToast": "नुस्खा हटा दिया गया।",
+    "deleteErrorToast": "यह नुस्खा हटाया नहीं जा सका।",
+    "loadErrorToast": "आपका नुस्खा इतिहास लोड नहीं हो सका।",
+    "card": {
+      "doctorLabel": "डॉक्टर",
+      "view": "देखें",
+      "delete": "हटाएं"
+    }
+  },
+  "prescriptionDetails": {
+    "notFound": "यह नुस्खा नहीं मिल सका।",
+    "backToHistory": "इतिहास पर वापस जाएं",
+    "back": "वापस",
+    "title": "नुस्खे का विवरण",
+    "subtitle": "अपने नुस्खे की जानकारी देखें",
+    "dateLabel": "तारीख़",
+    "doctorLabel": "डॉक्टर",
+    "languageLabel": "भाषा",
+    "originalHeading": "मूल नुस्खा",
+    "originalEmpty": "इस दस्तावेज़ से कोई पाठ नहीं निकाला गया।",
+    "simplifiedHeading": "सरलीकृत संस्करण",
+    "simplifiedEmpty": "सरलीकृत व्याख्या अभी उपलब्ध नहीं है।",
+    "medicinesHeading": "दवाइयां",
+    "downloadButton": "नुस्खा डाउनलोड करें",
+    "loadErrorToast": "यह नुस्खा लोड नहीं हो सका।"
+  },
+  "chatbot": {
+    "headerTitle": "स्वास्थ्य सहायक",
+    "headerSubtitle": "अपनी रिपोर्ट या सामान्य स्वास्थ्य के बारे में प्रश्न पूछें",
+    "emptyStatePrompt": "अपनी चिकित्सा रिपोर्ट, दवाइयों, या सामान्य स्वास्थ्य के बारे में मुझसे कुछ भी पूछें — पाठ या आवाज़ से, अपनी भाषा में।",
+    "suggestedPrompts": [
+      "उच्च रक्तचाप का क्या मतलब है?",
+      "मुझे एंटीबायोटिक्स सुरक्षित रूप से कैसे लेनी चाहिए?",
+      "प्रसवपूर्व देखभाल क्या है?",
+      "मेरा नुस्खा सरल शब्दों में समझाएं।"
+    ],
+    "conversations": "बातचीत",
+    "newConversation": "नई बातचीत",
+    "noConversations": "अभी तक कोई बातचीत नहीं है।",
+    "inputPlaceholder": "अपना स्वास्थ्य प्रश्न लिखें...",
+    "demoMode": "डेमो मोड — कोई LLM कुंजी कॉन्फ़िगर नहीं की गई",
+    "via": "{{provider}} के माध्यम से",
+    "loadSessionsError": "आपकी बातचीत लोड नहीं हो सकी।",
+    "loadMessagesError": "यह बातचीत लोड नहीं हो सकी।",
+    "deleteSessionError": "यह बातचीत हटाई नहीं जा सकी।",
+    "askError": "सहायक जवाब नहीं दे सका। कृपया फिर से प्रयास करें।",
+    "voiceError": "रिकॉर्डिंग संसाधित नहीं हो सकी। कृपया फिर से प्रयास करें या टाइप करें।",
+    "voiceUnsupported": "इस ब्राउज़र में वॉइस रिकॉर्डिंग समर्थित नहीं है।",
+    "micDenied": "माइक्रोफ़ोन एक्सेस अस्वीकार किया गया या अनुपलब्ध है।",
+    "stopRecording": "रिकॉर्डिंग बंद करें",
+    "askByVoice": "आवाज़ से पूछें",
+    "voiceNotSupportedHere": "यहां वॉइस रिकॉर्डिंग समर्थित नहीं है"
+  },
+  "upload": {
+    "sectionHeading": "छवि या PDF अपलोड करें",
+    "dragDrop": "यहां एक छवि या PDF खींचें और छोड़ें, या नीचे एक विकल्प चुनें",
+    "useCamera": "📷 कैमरा उपयोग करें",
+    "capture": "कैप्चर करें",
+    "cancel": "रद्द करें",
+    "cameraError": "कैमरे तक पहुंच नहीं हो सकी। कृपया कैमरा अनुमति दें।",
+    "invalidFileType": "केवल JPG, JPEG, PNG, और PDF फ़ाइलों की अनुमति है।",
+    "extractText": "पाठ निकालें",
+    "extracting": "पाठ निकाला जा रहा है...",
+    "extractingPercent": "पाठ निकाला जा रहा है... {{progress}}%",
+    "extractSuccessToast": "पाठ सफलतापूर्वक निकाला गया!",
+    "extractErrorToast": "पाठ निकालने में विफल। कृपया एक स्पष्ट छवि आज़माएं।",
+    "selectFileFirstToast": "कृपया पहले एक छवि या PDF चुनें।",
+    "pdfSelected": "PDF फ़ाइल चुनी गई",
+    "ocrResultHeading": "OCR परिणाम",
+    "ocrResultPlaceholder": "निकाला गया पाठ यहां दिखाई देगा...",
+    "viewFullResults": "पूरे परिणाम और सरलीकृत सारांश देखें",
+    "headerTitle": "OCR सेवा",
+    "headerSubtitle": "अपनी छवि अपलोड करें और पाठ निकालें"
+  },
+  "results": {
+    "appHeader": {
+      "title": "क्लैरिटीकेयर",
+      "subtitle": "चिकित्सा पाठ को उन शब्दों में बदलें जिन्हें आपके मरीज़ समझते हैं",
+      "switchToDark": "डार्क मोड में बदलें",
+      "switchToLight": "लाइट मोड में बदलें"
+    },
+    "toolbar": {
+      "translateTo": "इसमें अनुवाद करें",
+      "selectLanguage": "भाषा चुनें",
+      "simplify": "सरल बनाएं",
+      "translate": "अनुवाद करें"
+    },
+    "loadingReport": "रिपोर्ट लोड हो रही है...",
+    "uploadFirstTranslate": "अनुवाद करने के लिए पहले एक रिपोर्ट अपलोड करें।",
+    "uploadFirstSimplify": "सरल बनाने के लिए पहले एक रिपोर्ट अपलोड करें।",
+    "translateFailed": "अनुवाद विफल रहा।",
+    "simplifyFailed": "सरलीकरण विफल रहा।",
+    "loadReportFailed": "यह रिपोर्ट लोड नहीं हो सकी।",
+    "resultCopied": "परिणाम कॉपी हो गया। कहीं भी साझा करें।",
+    "shareTitle": "एआई सरलीकृत परिणाम",
+    "header": {
+      "title": "स्वास्थ्य सरलीकृत परिणाम",
+      "copyTooltip": "क्लिपबोर्ड पर कॉपी करें",
+      "shareTooltip": "परिणाम साझा करें",
+      "downloadTooltip": "पाठ के रूप में डाउनलोड करें"
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "description": "हमें वह पेज नहीं मिला। यह स्थानांतरित हो गया होगा, या लिंक गलत हो सकता है।",
+    "backToDashboard": "डैशबोर्ड पर वापस जाएं"
+  }
+}

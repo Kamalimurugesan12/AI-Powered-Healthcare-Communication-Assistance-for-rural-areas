@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ===== Base: clean white + ice blue ===== */
+    --background: 205 70% 96%;         /* #E7F3FB — ice-blue page bg */
+    --foreground: 217 45% 15%;         /* #17233C — deep navy text, not pure black */
+
+    --card: 0 0% 100%;                 /* #FFFFFF — clean white surface */
+    --card-foreground: 217 45% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 217 45% 15%;
+
+    /* ===== Brand: navy blue ===== */
+    --primary: 217 55% 26%;            /* #1F3A63 — navy blue, main brand color */
+    --primary-foreground: 0 0% 100%;
+
+    --primary-deep: 217 60% 16%;       /* #102542 — deeper navy, hover/gradients */
+    --primary-deep-foreground: 0 0% 100%;
+
+    --secondary: 205 60% 93%;          /* light ice-blue tint, for secondary surfaces/buttons */
+    --secondary-foreground: 217 50% 24%; /* deep navy text */
+
+    /* Medium azure — crisp highlight, stays within the ice/navy family */
+    --accent: 203 85% 40%;             /* #0F7ABD */
+    --accent-foreground: 0 0% 100%;
+
+    /* ===== UI ===== */
+    --muted: 205 45% 95%;
+    --muted-foreground: 215 18% 42%;
+
+    --border: 205 45% 85%;
+    --input: 205 45% 85%;
+
+    --ring: 217 55% 26%;
+
+    /* ===== Status ===== */
+    --success: 152 60% 40%;            /* soft healing green */
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 210 25% 16%;
+
+    --destructive: 0 72% 52%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Used for highlighted medical word differences */
+    --diff-highlight: 38 92% 50%;
+
+    --radius: 0.9rem;
+
+    /* Information */
+    --info: 203 85% 40%;
+    --info-foreground: 0 0% 100%;
+
+    /* Pending/Processing */
+    --pending: 205 45% 94%;
+    --pending-foreground: 215 18% 42%;
+
+    /* AI accent — bright icy blue, pairs with navy primary for gradient depth */
+    --ai: 199 90% 50%;                 /* #0DA1E8 */
+    --ai-foreground: 0 0% 100%;
+
+    /* Sidebar */
+    --sidebar: 0 0% 100%;
+    --sidebar-foreground: 217 45% 15%;
+    --sidebar-border: 205 45% 85%;
+    --sidebar-accent: 217 55% 26%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-muted: 205 45% 95%;
+  }
+
+  .dark {
+    --background: 217 45% 9%;          /* #0C1526 — deep navy bg */
+    --foreground: 205 40% 96%;
+
+    --card: 217 38% 13%;
+    --card-foreground: 205 40% 96%;
+
+    --popover: 217 38% 13%;
+    --popover-foreground: 205 40% 96%;
+
+    --primary: 205 85% 60%;            /* bright icy blue — readable brand color on dark navy bg */
+    --primary-foreground: 217 45% 10%;
+
+    --primary-deep: 210 75% 45%;
+    --primary-deep-foreground: 0 0% 100%;
+
+    --secondary: 217 32% 20%;
+    --secondary-foreground: 205 70% 88%;
+
+    --accent: 199 88% 62%;
+    --accent-foreground: 217 45% 10%;
+
+    --muted: 217 30% 18%;
+    --muted-foreground: 210 20% 65%;
+
+    --border: 217 30% 22%;
+    --input: 217 30% 22%;
+
+    --ring: 205 85% 60%;
+
+    --success: 152 55% 48%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 55%;
+    --warning-foreground: 160 40% 10%;
+
+    --destructive: 0 72% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --diff-highlight: 38 92% 55%;
+
+    --info: 199 88% 62%;
+    --info-foreground: 217 45% 10%;
+
+    --pending: 217 30% 18%;
+    --pending-foreground: 210 20% 68%;
+
+    --ai: 205 90% 68%;
+    --ai-foreground: 217 45% 10%;
+
+    --sidebar: 217 42% 11%;
+    --sidebar-foreground: 205 40% 96%;
+    --sidebar-border: 217 30% 20%;
+    --sidebar-accent: 205 85% 60%;
+    --sidebar-accent-foreground: 217 45% 10%;
+    --sidebar-muted: 217 30% 18%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Highlight changed words after simplification */
+.diff-word {
+  background-color: hsl(var(--diff-highlight) / 0.25);
+  color: hsl(var(--warning));
+  font-weight: 600;
+  padding: 0.05em 0.2em;
+  border-radius: 0.25em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+
+

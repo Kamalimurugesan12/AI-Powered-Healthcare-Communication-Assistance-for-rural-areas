@@ -1,0 +1,63 @@
+# --- Core web framework ---
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+pydantic-settings
+email-validator
+
+# --- Database (single shared DB for every module) ---
+sqlalchemy
+# Uncomment for Postgres in production:
+# psycopg2-binary
+
+# --- Auth ---
+python-jose[cryptography]
+passlib[bcrypt]
+# passlib 1.7.4's bcrypt backend self-test breaks on bcrypt>=4.1 (raises
+# "password cannot be longer than 72 bytes" during a startup self-check
+# unrelated to the actual password). Pin to a known-compatible version.
+bcrypt==4.0.1
+python-multipart
+
+# --- OCR pipeline (image/PDF handling + preprocessing) ---
+opencv-python-headless
+numpy
+Pillow
+PyMuPDF
+
+# --- OCR engine (production text recognition) ---
+# These were COMMENTED OUT before, so `pip install -r requirements.txt` never installed an
+# OCR engine and the app silently ran on a fake stub engine. Install them for real now.
+# paddlepaddle/paddleocr: wheels exist for Windows + Python 3.13 (cp313 win_amd64). On first
+# start PaddleOCR downloads its model weights (internet needed once; cached in ~/.paddlex).
+paddlepaddle>=3.1,<4
+paddleocr>=3.0,<4
+# Fallback engine: same PP-OCR models as ONNX, weights bundled in the wheel (works offline).
+rapidocr-onnxruntime>=1.2.3
+onnxruntime
+
+# --- NLP entity extraction ---
+# app/services/nlp_service.py already runs a fully-functional regex/keyword
+# entity extractor with zero extra dependencies. Installing these two
+# upgrades it to transformer-based NER (BioClinicalBERT) automatically;
+# nothing else needs to change:
+# torch
+# transformers
+
+# --- Chatbot: LLM providers (cloud APIs, no local model download needed) ---
+groq>=0.13
+google-genai>=1.0
+
+# --- Chatbot: language detection (pure Python, always safe to install) ---
+langdetect
+
+# --- Chatbot: retrieval (OPTIONAL; chat still works without it) ---
+# Needed only if you have a populated Pinecone index. sentence-transformers pulls in torch and
+# downloads the BAAI/bge-m3 embedding model (~2GB) on first use. Uncomment to enable:
+# pinecone
+# sentence-transformers
+
+# --- Testing ---
+pytest
+httpx
