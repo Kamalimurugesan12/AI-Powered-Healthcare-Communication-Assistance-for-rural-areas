@@ -9,7 +9,7 @@ email-validator
 # --- Database (single shared DB for every module) ---
 sqlalchemy
 # Uncomment for Postgres in production:
-# psycopg2-binary
+psycopg2-binary
 
 # --- Auth ---
 python-jose[cryptography]
@@ -31,8 +31,8 @@ PyMuPDF
 # OCR engine and the app silently ran on a fake stub engine. Install them for real now.
 # paddlepaddle/paddleocr: wheels exist for Windows + Python 3.13 (cp313 win_amd64). On first
 # start PaddleOCR downloads its model weights (internet needed once; cached in ~/.paddlex).
-paddlepaddle>=3.1,<4
-paddleocr>=3.0,<4
+#paddlepaddle>=3.1,<4
+#paddleocr>=3.0,<4
 # Fallback engine: same PP-OCR models as ONNX, weights bundled in the wheel (works offline).
 rapidocr-onnxruntime>=1.2.3
 onnxruntime
